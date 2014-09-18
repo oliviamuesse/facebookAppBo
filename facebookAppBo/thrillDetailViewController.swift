@@ -2,7 +2,7 @@
 //  thrillDetailViewController.swift
 //  facebookAppBo
 //
-//  Created by Olivia Muesse on 9/15/14.
+//  Created by Olivia Muesse and Bill Devine on 9/15/14.
 //  Copyright (c) 2014 Olivia Muesse. All rights reserved.
 //
 
