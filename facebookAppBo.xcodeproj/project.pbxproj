@@ -13,6 +13,12 @@
 		4529269519C7DB8E00FBCE65 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4529269419C7DB8E00FBCE65 /* Images.xcassets */; };
 		4529269819C7DB8E00FBCE65 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4529269619C7DB8E00FBCE65 /* LaunchScreen.xib */; };
 		452926A419C7DB8E00FBCE65 /* facebookAppBoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 452926A319C7DB8E00FBCE65 /* facebookAppBoTests.swift */; };
+		452926AE19C7DF5A00FBCE65 /* feedTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 452926AD19C7DF5A00FBCE65 /* feedTabViewController.swift */; };
+		452926B019C7DF6B00FBCE65 /* messagesTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 452926AF19C7DF6B00FBCE65 /* messagesTabViewController.swift */; };
+		452926B219C7DF7400FBCE65 /* notificationsTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 452926B119C7DF7400FBCE65 /* notificationsTabViewController.swift */; };
+		452926B419C7DF8500FBCE65 /* requestsTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 452926B319C7DF8500FBCE65 /* requestsTabViewController.swift */; };
+		452926B619C7DF8C00FBCE65 /* moreTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 452926B519C7DF8C00FBCE65 /* moreTabViewController.swift */; };
+		452926B819C7EFD700FBCE65 /* thrillDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 452926B719C7EFD700FBCE65 /* thrillDetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +42,12 @@
 		4529269D19C7DB8E00FBCE65 /* facebookAppBoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = facebookAppBoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		452926A219C7DB8E00FBCE65 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		452926A319C7DB8E00FBCE65 /* facebookAppBoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = facebookAppBoTests.swift; sourceTree = "<group>"; };
+		452926AD19C7DF5A00FBCE65 /* feedTabViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = feedTabViewController.swift; sourceTree = "<group>"; };
+		452926AF19C7DF6B00FBCE65 /* messagesTabViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = messagesTabViewController.swift; sourceTree = "<group>"; };
+		452926B119C7DF7400FBCE65 /* notificationsTabViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = notificationsTabViewController.swift; sourceTree = "<group>"; };
+		452926B319C7DF8500FBCE65 /* requestsTabViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = requestsTabViewController.swift; sourceTree = "<group>"; };
+		452926B519C7DF8C00FBCE65 /* moreTabViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = moreTabViewController.swift; sourceTree = "<group>"; };
+		452926B719C7EFD700FBCE65 /* thrillDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = thrillDetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +92,12 @@
 				4529268D19C7DB8E00FBCE65 /* AppDelegate.swift */,
 				4529268F19C7DB8E00FBCE65 /* ViewController.swift */,
 				4529269119C7DB8E00FBCE65 /* Main.storyboard */,
+				452926B719C7EFD700FBCE65 /* thrillDetailViewController.swift */,
+				452926AD19C7DF5A00FBCE65 /* feedTabViewController.swift */,
+				452926AF19C7DF6B00FBCE65 /* messagesTabViewController.swift */,
+				452926B119C7DF7400FBCE65 /* notificationsTabViewController.swift */,
+				452926B519C7DF8C00FBCE65 /* moreTabViewController.swift */,
+				452926B319C7DF8500FBCE65 /* requestsTabViewController.swift */,
 				4529269419C7DB8E00FBCE65 /* Images.xcassets */,
 				4529269619C7DB8E00FBCE65 /* LaunchScreen.xib */,
 				4529268B19C7DB8E00FBCE65 /* Supporting Files */,
@@ -212,8 +230,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				452926B819C7EFD700FBCE65 /* thrillDetailViewController.swift in Sources */,
+				452926B419C7DF8500FBCE65 /* requestsTabViewController.swift in Sources */,
+				452926B219C7DF7400FBCE65 /* notificationsTabViewController.swift in Sources */,
+				452926B019C7DF6B00FBCE65 /* messagesTabViewController.swift in Sources */,
 				4529269019C7DB8E00FBCE65 /* ViewController.swift in Sources */,
 				4529268E19C7DB8E00FBCE65 /* AppDelegate.swift in Sources */,
+				452926AE19C7DF5A00FBCE65 /* feedTabViewController.swift in Sources */,
+				452926B619C7DF8C00FBCE65 /* moreTabViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -337,6 +361,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = facebookAppBo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -347,6 +372,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = facebookAppBo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
